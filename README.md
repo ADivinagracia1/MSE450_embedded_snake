@@ -1,4 +1,10 @@
-# MSE450_SU21_G18: Avid Notetakers
+# MSE450 Project: Embedded Snake Game 
+
+Write an interactive program on the TM4C123 microcontroller utilizing timers, interrupts, peripherals, and an output screen. Apply a data structure in your application.
+
+This is a project I am quite fond of. This is a very low level system and we developed a running application on a microcontroller. This is a legacy project, im quite fond of our little comments around the git files. Please excuse some of what's written here. This is more sentimental than technical, but I may build a physical version of it. 
+
+-------
 
 Baby's first git repo. We all know how to use git now!
 
@@ -7,9 +13,9 @@ Baby's first git repo. We all know how to use git now!
 - Lab 2 Submitted
 
 ## Team:
-- Andrei Divinagracia (301360608)
-- Zainab Vajahath (301344653)
-- Dexter Zamora (301238390)
+- Andrei Divinagracia
+- Zainab Vajahath
+- Dexter Zamora
 
 ## Random Notes:
 - When building files, always click "Rebuild" then start debug session (ctrl+F5)
