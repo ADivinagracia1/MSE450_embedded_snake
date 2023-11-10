@@ -1,0 +1,13 @@
+.\snakegamemain.o: SnakeGameMain.c
+.\snakegamemain.o: tm4c123gh6pm.h
+.\snakegamemain.o: Nokia5110.h
+.\snakegamemain.o: Random.h
+.\snakegamemain.o: TExaS.h
+.\snakegamemain.o: SnakeModule.h
+.\snakegamemain.o: GameEngine.h
+.\snakegamemain.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\snakegamemain.o: FruitModule.h
+.\snakegamemain.o: config.h
+.\snakegamemain.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\snakegamemain.o: Init.h
+.\snakegamemain.o: ADC.h
