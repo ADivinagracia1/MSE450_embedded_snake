@@ -8,12 +8,6 @@ This is a project I am quite fond of. This is a very low level system and we dev
 
 -------
 
-Baby's first git repo. We all know how to use git now!
-
-## Progress
-- Lab 1 Submitted
-- Lab 2 Submitted
-
 ## Team:
 - Andrei Divinagracia
 - Zainab Vajahath
