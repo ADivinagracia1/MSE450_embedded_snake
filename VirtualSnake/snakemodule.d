@@ -1,0 +1,9 @@
+.\snakemodule.o: SnakeModule.c
+.\snakemodule.o: SnakeModule.h
+.\snakemodule.o: GameEngine.h
+.\snakemodule.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\snakemodule.o: config.h
+.\snakemodule.o: Nokia5110.h
+.\snakemodule.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\snakemodule.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\snakemodule.o: tm4c123gh6pm.h

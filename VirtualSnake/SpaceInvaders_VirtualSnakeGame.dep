@@ -1,0 +1,45 @@
+Dependencies for Project 'SpaceInvaders', Target 'VirtualSnakeGame': (DO NOT MODIFY !)
+F (.\startup.s)(0x60D388DC)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\random.s)(0x60D388DC)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\TExaS.c)(0x60D388DC)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x60D388DC)
+F (.\VirtualNokia5110.c)(0x60D5200C)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\virtualnokia5110.o --omf_browse .\virtualnokia5110.crf --depend .\virtualnokia5110.d)
+I (Nokia5110.h)(0x60D388DC)
+F (.\SnakeGameMain.c)(0x60D80154)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\snakegamemain.o --omf_browse .\snakegamemain.crf --depend .\snakegamemain.d)
+I (tm4c123gh6pm.h)(0x60D388DC)
+I (Nokia5110.h)(0x60D388DC)
+I (Random.h)(0x60D388DC)
+I (TExaS.h)(0x60D388DC)
+I (SnakeModule.h)(0x60D7FC48)
+I (GameEngine.h)(0x60D5308A)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C89844)
+I (FruitModule.h)(0x60D7FA28)
+I (config.h)(0x60D7BD78)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C89844)
+I (Init.h)(0x60D7F9A6)
+I (ADC.h)(0x60D7BD78)
+F (.\SnakeModule.c)(0x60D7FC32)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\snakemodule.o --omf_browse .\snakemodule.crf --depend .\snakemodule.d)
+I (SnakeModule.h)(0x60D7FC48)
+I (GameEngine.h)(0x60D5308A)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C89844)
+I (config.h)(0x60D7BD78)
+I (Nokia5110.h)(0x60D388DC)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C89844)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C89844)
+I (tm4c123gh6pm.h)(0x60D388DC)
+F (.\FruitModule.c)(0x60D7FC88)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\fruitmodule.o --omf_browse .\fruitmodule.crf --depend .\fruitmodule.d)
+I (FruitModule.h)(0x60D7FA28)
+I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C89844)
+I (GameEngine.h)(0x60D5308A)
+I (random.h)(0x60D388DC)
+I (Nokia5110.h)(0x60D388DC)
+I (config.h)(0x60D7BD78)
+I (SnakeModule.h)(0x60D7FC48)
+F (.\ADC.c)(0x60D7BD78)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (ADC.h)(0x60D7BD78)
+I (tm4c123gh6pm.h)(0x60D388DC)
+F (.\Init.c)(0x60D7EFFC)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\init.o --omf_browse .\init.crf --depend .\init.d)
+I (TExaS.h)(0x60D388DC)
+I (tm4c123gh6pm.h)(0x60D388DC)
+I (ADC.h)(0x60D7BD78)
+I (Init.h)(0x60D7F9A6)
